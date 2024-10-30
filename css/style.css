@@ -1,0 +1,40 @@
+ul.tweets {
+	list-style-position: outside;
+	list-style-type: none;
+	margin: 0;
+	width: 100%;
+}
+
+li.tweet {
+	line-height: 17px;
+	padding: 10px 0;
+	position: relative;
+}
+
+.tweet-text {
+	position: relative;
+}
+
+.tweet-image {
+	position: relative;
+}
+
+.tweet-image img {
+	display: block;
+	float: left;
+	margin: 0;
+	max-width: 100%;
+	padding: 0;
+}
+
+.tweet-image a {
+	border: 1px solid #e6e6e6;
+	float: left;
+	margin-right: 10px;
+	padding: 3px;
+}
+
+.tweet-date {
+	clear: both;
+	font-size: 0.9em;
+}
